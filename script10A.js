@@ -100,11 +100,55 @@
 //problem 5
 //while()  => user inifite  =>
 
+// let randomNumber = Math.floor(Math.random() * 5) + 1
+// console.log(randomNumber)
+
+// let userInput
+// while (userInput !== randomNumber) {
+//     userInput = Number(prompt("Enter any number btw 1-5"))
+//     console.log(userInput)
+
+//     if (randomNumber === userInput) {
+//         console.log('Your guess is correct')
+//         break
+//     }
+//     else {
+//         console.log('Your guess is incorrect')
+//     }
+// }
+
+//===================================================
+
+//do while
+
+//while
+
+//1-5
+// let i = 1
+// while (i <= 5) {
+//     console.log(i)
+//     i++
+// }
+
+
+// //block code execute
+
+// let j=1 //j=1
+// do{
+//     console.log(j) //1 2 3 4 5
+//     j++//2 3 4 5 6
+// }
+// while(j<=5)//2<=5 3<=5 4<=5 5<=5 6<=5
+
+//=========================================================
+
+//problem 6
+
 let randomNumber = Math.floor(Math.random() * 5) + 1
 console.log(randomNumber)
 
 let userInput
-while (userInput !== randomNumber) {
+do {
     userInput = Number(prompt("Enter any number btw 1-5"))
     console.log(userInput)
 
@@ -116,10 +160,9 @@ while (userInput !== randomNumber) {
         console.log('Your guess is incorrect')
     }
 }
+while (userInput !== randomNumber)
 
-//===================================================
 
-//do while
 
 
 
